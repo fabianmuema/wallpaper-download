@@ -1,5 +1,5 @@
-Using Python
-============
+Download Wallpapers Using Python
+================================
 
 *   The \[website\]([https://wallpaperplay.com/) ](https://wallpaperplay.com/)
 *   The web structure is organized, so BeautifulSoup can be used.
