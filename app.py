@@ -22,6 +22,7 @@ for c in c_thumb:
         if "car" in title or "4k" in title or "Hd" in title or rating >= 50:
             for image in image_tag:
                 img_url = 'https://wallpaperplay.com' + image.get('data-src')
+                img_url = img_url.replace('small-retina', 'full')
                 if not os.path.isfile('/home/fabian/.config/variety/Fetched/' + img_url[-8:]):
                     urllib.request.urlretrieve(img_url, '/home/fabian/.config/variety/Fetched/' + img_url[-8:])
                     print('Wallpaper downloaded successfully')
